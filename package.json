@@ -1,7 +1,7 @@
 {
   "name": "bmutex",
   "version": "0.0.0",
-  "description": "Mutex locks for node.js",
+  "description": "Mutex locks for javascript",
   "keywords": [
     "lock",
     "mutex"
