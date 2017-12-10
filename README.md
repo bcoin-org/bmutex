@@ -6,6 +6,20 @@ Mutex locks for javascript.
 
 ``` js
 const {Lock} = require('bmutex');
+const lock = Lock.create();
+
+async function doSomething() {
+  const unlock = await lock();
+  try {
+    await _doSomething();
+  } finally {
+    unlock();
+  }
+}
+
+async function _doSomething() {
+  // actually do something async
+}
 ```
 
 ## Contribution and License Agreement
