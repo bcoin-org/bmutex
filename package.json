@@ -1,6 +1,6 @@
 {
   "name": "bmutex",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Mutex locks for javascript",
   "keywords": [
     "lock",
@@ -19,7 +19,7 @@
     "test": "bmocha --reporter spec test/*-test.js"
   },
   "dependencies": {
-    "bsert": "~0.0.9"
+    "bsert": "~0.0.10"
   },
   "devDependencies": {
     "bmocha": "^2.1.0"
