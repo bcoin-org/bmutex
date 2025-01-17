@@ -15,3 +15,5 @@ package-lock.json
 test/
 webpack.*.js
 yarn.lock
+tsconfig.json
+eslint.config.cjs
